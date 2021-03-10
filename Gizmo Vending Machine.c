@@ -1,4 +1,4 @@
-#include <Servo.h> //Servo Library which turns the metal wires
+#include <Servo.h>; //Servo Library which turns the metal wires
 #include <SPI.h> //Serial Peripheral Interface Library for various modules to communicate with each other quickly
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h> //LCD I2C Library to display actions required by human
