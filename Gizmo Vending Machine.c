@@ -68,7 +68,7 @@ void loop() {
     Serial.println();
     Serial.print("Message:");
     content.toUpperCase();
-    if(content.substring(1) == "17 F8 51 B4"){
+    if(content.substring(1) == "17 F8 51 B4"){ //Unique 8-digit ASCII code of the physical card I am using
       servo.attach(A0);
       servo.write(18);
       delay(2000);
@@ -108,7 +108,7 @@ void loop() {
     Serial.println();
     Serial.print("Message:");
     content.toUpperCase();
-    if(content.substring(1) == "17 F8 51 B4"){
+    if(content.substring(1) == "17 F8 51 B4"){ //Unique 8-digit ASCII code of the physical card I am using
       servo.attach(2);
       servo.write(180);
       delay(2000);
@@ -148,7 +148,7 @@ void loop() {
     Serial.println();
     Serial.print("Message:");
     content.toUpperCase();
-    if(content.substring(1) == "17 F8 51 B4"){
+    if(content.substring(1) == "17 F8 51 B4"){ //Unique 8-digit ASCII code of the physical card I am using
       servo.attach(3);
       servo.write(180);
       delay(2000);
@@ -188,7 +188,7 @@ void loop() {
     Serial.println();
     Serial.print("Message:");
     content.toUpperCase();
-    if(content.substring(1) == "17 F8 51 B4"){
+    if(content.substring(1) == "17 F8 51 B4"){ //Unique 8-digit ASCII code of the physical card I am using
       servo.attach(4);
       servo.write(180);
       delay(2000);
