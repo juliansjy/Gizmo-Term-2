@@ -45,8 +45,8 @@ void loop() {
   if(a==0){
     lcd.clear();
     //lcd.setCursor(1, 1);
-    lcd.print("   $5    ");
-    lcd.print("   Give me your card!");
+    //lcd.print("   $5    ");
+    lcd.print("   Tap your card!");
     delay(2000);
     if(!mfrc522.PICC_IsNewCardPresent()){
       return;
@@ -85,8 +85,8 @@ void loop() {
   if(b==0){
     lcd.clear();
     //lcd.setCursor(1, 1);
-    lcd.print("   $5    ");
-    lcd.print("   Give me your card!");
+    //lcd.print("   $5    ");
+    lcd.print("   Tap your card!");
     delay(2000);
     if(!mfrc522.PICC_IsNewCardPresent()){
       return;
@@ -125,8 +125,8 @@ void loop() {
   if(c==0){
     lcd.clear();
     //lcd.setCursor(1, 1);
-    lcd.print("   $5    ");
-    lcd.print("   Give me your card!");
+    //lcd.print("   $5    ");
+    lcd.print("   Tap your card!");
     delay(2000);
     if(!mfrc522.PICC_IsNewCardPresent()){
       return;
@@ -165,8 +165,8 @@ void loop() {
   if(d==0){
     lcd.clear();
     //lcd.setCursor(1, 1);
-    lcd.print("   $5    ");
-    lcd.print("   Give me your card!");
+    //lcd.print("   $5    ");
+    lcd.print("   Tap your card!");
     delay(2000);
     if(!mfrc522.PICC_IsNewCardPresent()){
       return;
